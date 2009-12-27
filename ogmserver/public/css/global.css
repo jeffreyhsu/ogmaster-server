@@ -1,0 +1,2278 @@
+html, body {
+    color:#5E5E5E;
+    height:100%;
+}
+#doc3 {
+    -moz-background-clip:border !important;
+    -moz-background-inline-policy:continuous !important;
+    -moz-background-origin:padding !important;
+    background:transparent url(/img/header-back.png) repeat-x scroll 0 5px !important;
+    height:auto !important;
+    margin:0 0 -262px;
+    min-height:100%;
+}
+body.short-head #doc3 {
+    -moz-background-clip:border !important;
+    -moz-background-inline-policy:continuous !important;
+    -moz-background-origin:padding !important;
+    background:transparent url(/img/header-back-proj.png) repeat-x scroll 0 5px !important;
+}
+#doc4-b {
+    clear:both;
+    height:240px;
+    margin:0 auto 13px;
+    width:74.923em;
+}
+#ie6only #doc4-b {
+    width:73.05em;
+}
+.footer-push {
+    height:262px;
+}
+.clear {
+    clear:both;
+    display:block;
+}
+.standard-margin {
+    margin-bottom:11px;
+}
+small {
+    font-size:77%;
+}
+p {
+    line-height:160%;
+    margin-bottom:1em;
+}
+.actions {
+    float:right;
+}
+.actions li {
+    margin:0 5px !important;
+}
+.searchin {
+    left:50em !important;
+}
+a {
+    color:#0092E8;
+    text-decoration:none;
+}
+a:hover {
+    text-decoration:underline;
+}
+a strong {
+    font-weight:bold;
+}
+.link-more {
+    -moz-background-clip:border;
+    -moz-background-inline-policy:continuous;
+    -moz-background-origin:padding;
+    background:transparent url(/img/icons/small-arrow.png) no-repeat scroll 100% 0.2em;
+    padding-right:17px;
+}
+.hr {
+    border-top:1px solid #CCCCCC;
+    font-size:0;
+    height:0;
+    margin:15px 0;
+    overflow:hidden;
+}
+.hr hr {
+    display:none;
+}
+.hr-dotted {
+    -moz-background-clip:border;
+    -moz-background-inline-policy:continuous;
+    -moz-background-origin:padding;
+    background:transparent url(https://a.fsdn.com/sf/images/develop/grey-dots.gif) repeat-x scroll 0 0;
+    border:0 none;
+    height:1px;
+}
+.icon {
+    background-position:0 0;
+    background-repeat:no-repeat;
+    display:inline-block;
+    padding:4px 0 5px 29px;
+}
+.icon.arrow-icon {
+    background-image:url(https://a.fsdn.com/sf/images/develop/icons/small-arrow.png);
+    background-position:0 50%;
+    padding-left:17px;
+}
+.icon.post-icon, .icon.forum {
+    background-image:url(https://a.fsdn.com/sf/images/develop/icons/post.png);
+}
+.icon.bug-icon, .icon.ticket, .icon.bug, .icon.tracker {
+    background-image:url(https://a.fsdn.com/sf/images/develop/icons/bug.png);
+}
+.icon.check-icon, .icon.code {
+    background-image:url(https://a.fsdn.com/sf/images/develop/icons/check.png);
+}
+.icon.news-icon, .icon.news {
+    background-image:url(https://a.fsdn.com/sf/images/develop/icons/news.png);
+}
+.icon.project-icon, .icon.project {
+    background-image:url(https://a.fsdn.com/sf/images/develop/icons/project.png);
+}
+.icon.files-icon, .icon.file, .icon.files {
+    background-image:url(https://a.fsdn.com/sf/images/develop/icons/files.png);
+}
+.icon.share-icon, .icon.share {
+    background-image:url(https://a.fsdn.com/sf/images/develop/icons/add.png);
+}
+.icon.subscribe-icon, .icon.subscribe {
+    background-image:url(https://a.fsdn.com/sf/images/develop/icons/subscribe.png);
+}
+.icon.donate-icon, .icon.donate {
+    background-image:url(https://a.fsdn.com/sf/images/develop/icons/donate.png);
+}
+.icon.download-icon {
+    background-image:url(https://a.fsdn.com/sf/images/develop/icons/download.png);
+}
+.icon.download-icon-2 {
+    background-image:url(https://a.fsdn.com/sf/images/develop/icons/download-2.png);
+    color:#46B907;
+    padding-left:24px;
+    padding-top:2px;
+}
+.icon-sm {
+    background-position:0 4px;
+    background-repeat:no-repeat;
+    display:inline-block;
+    padding:4px 0 5px 19px;
+    text-indent:-7000em;
+}
+.icon-sm.rss {
+    background-image:url(https://a.fsdn.com/sf/images/develop/icons/rss.png);
+}
+.icon-sm.notes-sm {
+    background-image:url(https://a.fsdn.com/sf/images/develop/icons/notes.png);
+}
+.icon-sm.monitor {
+    background-image:url(https://a.fsdn.com/sf/images/develop/icons/monitor.png);
+    padding-right:4px;
+}
+.icon.os-icon {
+}
+.icon.os-icon.vista-icon {
+    background-image:url(https://a.fsdn.com/sf/images/develop/icons/vista.png);
+}
+.button {
+    -moz-background-clip:border;
+    -moz-background-inline-policy:continuous;
+    -moz-background-origin:padding;
+    background:transparent url(https://a.fsdn.com/sf/images/develop/buttons/default.png) no-repeat scroll 100% -26px;
+    clear:none;
+    display:block;
+    float:left;
+    margin:0;
+    padding:0 17px 0 0;
+    position:relative;
+    text-decoration:none !important;
+}
+.button span {
+    -moz-background-clip:border;
+    -moz-background-inline-policy:continuous;
+    -moz-background-origin:padding;
+    background:transparent url(https://a.fsdn.com/sf/images/develop/buttons/default.png) no-repeat scroll 0 -26px;
+    clear:none;
+    cursor:pointer;
+    display:block;
+    float:left;
+    margin:0;
+    padding:3px 6px 7px 9px;
+    position:relative;
+}
+.button-more {
+    -moz-background-clip:border;
+    -moz-background-inline-policy:continuous;
+    -moz-background-origin:padding;
+    background:transparent url(https://a.fsdn.com/sf/images/develop/buttons/more.png) no-repeat scroll 100% -26px;
+    padding:0 20px 0 0;
+}
+.button-more span {
+    -moz-background-clip:border;
+    -moz-background-inline-policy:continuous;
+    -moz-background-origin:padding;
+    background:transparent url(https://a.fsdn.com/sf/images/develop/buttons/more.png) no-repeat scroll 0 -26px;
+}
+.button-dload {
+    -moz-background-clip:border;
+    -moz-background-inline-policy:continuous;
+    -moz-background-origin:padding;
+    background:transparent url(https://a.fsdn.com/sf/images/develop/buttons/dload.png) no-repeat scroll 100% -50px;
+    padding:0 37px 0 0;
+}
+.button-dload span {
+    -moz-background-clip:border;
+    -moz-background-inline-policy:continuous;
+    -moz-background-origin:padding;
+    background:transparent url(https://a.fsdn.com/sf/images/develop/buttons/dload.png) no-repeat scroll 0 -50px;
+    color:#92FF30;
+    height:30px;
+    padding:10px 7px 10px 11px;
+}
+.button-dload span strong {
+    color:#FFFFFF;
+    display:block;
+    font-size:108%;
+    font-weight:bold;
+    line-height:1;
+}
+.button:hover {
+    background-position:100% 0;
+}
+.button:hover span {
+    background-position:0 0;
+}
+.sfBox {
+    -moz-background-clip:border;
+    -moz-background-inline-policy:continuous;
+    -moz-background-origin:padding;
+    -moz-border-radius-bottomleft:5px;
+    -moz-border-radius-bottomright:5px;
+    background:#FFFFFF url(https://a.fsdn.com/sf/images/develop/boxes/grey-bar.gif) repeat-x scroll 0 0;
+    border-color:#D2D2D2;
+    border-style:solid;
+    border-width:0 1px 1px;
+    margin-bottom:15px;
+    padding:16px 11px 13px 14px;
+}
+.sfBox-notop {
+    -moz-background-clip:border;
+    -moz-background-inline-policy:continuous;
+    -moz-background-origin:padding;
+    -moz-border-radius-bottomleft:5px;
+    -moz-border-radius-bottomright:5px;
+    -moz-border-radius-topleft:5px;
+    -moz-border-radius-topright:5px;
+    background:#FFFFFF none repeat scroll 0 0;
+    border:1px solid #D2D2D2;
+    margin-bottom:15px;
+    margin-top:15px;
+    padding:11px 20px 13px 14px;
+    width:60%;
+}
+.sfBox.sfBox-blue {
+    background-image:url(https://a.fsdn.com/sf/images/develop/boxes/blue-bar.gif);
+    border-color:#9ED6F6;
+    border-style:solid;
+    border-width:0 1px 1px;
+}
+.feed.sfBox-blue .header {
+    -moz-background-clip:border;
+    -moz-background-inline-policy:continuous;
+    -moz-background-origin:padding;
+    background:#E8F5FD none repeat scroll 0 0;
+    border-bottom:1px solid #CEEAFB;
+    margin:-10px -11px 10px -14px;
+    padding:10px 15px;
+}
+#bd .feed.sfBox-blue .header h2 {
+    color:#5E5E5E;
+}
+.feed .subscribe {
+    text-indent:-7000em;
+}
+.sfBox.b-hot {
+    background-image:url(https://a.fsdn.com/sf/images/develop/boxes/whatshot-bar.gif);
+    background-position:right top;
+    border-width:0 1px 1px;
+}
+.sfBox.b-hot .downloading .yui-gc {
+    -moz-background-clip:border;
+    -moz-background-inline-policy:continuous;
+    -moz-background-origin:padding;
+    background:#E8F5FD none repeat scroll 0 0;
+    border-bottom:1px solid #CEEAFB;
+    margin:-10px -11px 10px -14px;
+    padding:10px 15px 5px;
+}
+.sfBox.b-hot .toolbar {
+    -moz-background-clip:border;
+    -moz-background-inline-policy:continuous;
+    -moz-background-origin:padding;
+    background:#E8F5FD none repeat scroll 0 0;
+    border-bottom:1px solid #CEEAFB;
+    border-top:1px solid #CEEAFB;
+    clear:both;
+    margin:10px -11px 10px -14px;
+    padding:10px 15px 5px;
+}
+.header {
+    position:relative;
+}
+.header strong {
+    font-weight:bold;
+}
+#hd .header.head-main h1, #bd h1 {
+    color:#3E3E3E;
+    font-size:167% !important;
+    line-height:1.3em;
+    margin-bottom:6px;
+}
+#bd h1, h1 a {
+    color:#5E5E5E;
+}
+#hd .header.head-sub h3 {
+    color:#006CA8;
+    font-size:138.5%;
+    font-weight:bold;
+    margin-bottom:4px;
+}
+#bd .titlebar, #bd h2 {
+    color:#5E5E5E;
+    font-size:116%;
+    font-weight:bold;
+}
+#bd h3 {
+    color:#5E5E5E;
+    font-weight:bold;
+    margin:0 0 7px;
+}
+#bd .titlebar, .header.dotted-header-1 h1, .header.dotted-header-1 h2, .header.dotted-header-1 h3 {
+    -moz-background-clip:border;
+    -moz-background-inline-policy:continuous;
+    -moz-background-origin:padding;
+    background:transparent url(https://a.fsdn.com/sf/images/develop/grey-dots.gif) repeat-x scroll 0 100%;
+    border:medium none;
+    margin:5px 0 15px;
+    padding-bottom:5px;
+    padding-left:0;
+}
+.sfBox .header.dotted-header-1 h3 {
+    color:#0171B0;
+    font-size:108%;
+    font-weight:bold;
+    margin:0 0 6px;
+}
+.header .actions {
+    margin-right:40px;
+    z-index:2000;
+}
+.arrow-list {
+    margin-bottom:9px;
+    padding-top:7px;
+}
+.arrow-list li {
+    -moz-background-clip:border;
+    -moz-background-inline-policy:continuous;
+    -moz-background-origin:padding;
+    background:transparent url(https://a.fsdn.com/sf/images/develop/icons/small-arrow.png) no-repeat scroll 0 50%;
+    margin-bottom:5px;
+    padding-left:17px;
+}
+.blog-twitter-container .item-list {
+    height:135px;
+    overflow:auto;
+}
+.item-list p {
+    font-size:93%;
+    line-height:140%;
+}
+.blog-twitter-container .item-list a {
+    font-weight:bold;
+}
+.blog-twitter-container .item-list small a {
+    font-weight:normal;
+}
+.item-list .item-img {
+    border:1px solid #C4C4C4;
+    display:inline;
+    float:left;
+    margin:0 10px 0 0;
+    padding:3px;
+}
+.screenshot {
+    margin:0 0 10px 10px;
+}
+.screenshot img {
+    border:1px solid #C4C4C4;
+    margin:0 !important;
+    padding:3px;
+}
+.item-list .item {
+    margin-bottom:10px;
+}
+.item-list .item p small {
+    font-size:77%;
+    line-height:1.6;
+    text-transform:uppercase;
+}
+.tab-nav {
+    margin:0 0 5px -8px;
+}
+.tab-nav li {
+    clear:none;
+    float:left;
+    height:25px;
+    padding:4px 8px 0;
+}
+.tab-nav li.selected {
+    -moz-background-clip:border;
+    -moz-background-inline-policy:continuous;
+    -moz-background-origin:padding;
+    background:transparent url(https://a.fsdn.com/sf/images/develop/nav/tab-right.gif) no-repeat scroll 100% 0;
+    padding:0 5px 0 0;
+    position:relative;
+}
+.tab-nav li.selected span {
+    -moz-background-clip:border;
+    -moz-background-inline-policy:continuous;
+    -moz-background-origin:padding;
+    background:transparent url(https://a.fsdn.com/sf/images/develop/nav/tab-left.gif) no-repeat scroll 0 0;
+    display:block;
+    font-weight:bold;
+    padding:4px 4px 3px 8px;
+    text-align:center;
+}
+.tab-nav li.selected em.arrow {
+    background-image:url(https://a.fsdn.com/sf/images/develop/nav/tab-arrow.gif);
+    bottom:-5px;
+    height:9px;
+    left:50%;
+    margin-left:-6px;
+    overflow:hidden;
+    position:absolute;
+    width:12px;
+}
+.nav {
+    margin:0 0 25px -8px !important;
+}
+#menu_account_index_index {
+    margin-left:10px;
+}
+#menu_account_index_index:not(.selected) {
+    -moz-background-clip:border;
+    -moz-background-inline-policy:continuous;
+    -moz-background-origin:padding;
+    background:transparent none repeat scroll 0 0;
+}
+#menu_consume_summary {
+    -moz-background-clip:border;
+    -moz-background-inline-policy:continuous;
+    -moz-background-origin:padding;
+    background:transparent none repeat scroll 0 0;
+}
+.nav li {
+    -moz-background-clip:border;
+    -moz-background-inline-policy:continuous;
+    -moz-background-origin:padding;
+    background:transparent url(https://a.fsdn.com/sf/images/develop/nav/hornav-split.png) no-repeat scroll 0 6px;
+    height:27px;
+}
+.nav li.tier {
+    clear:none;
+    float:left;
+    padding:4px 8px 0;
+}
+.nav li.selected li a {
+    padding:0.5em 0.7em;
+}
+.nav li.selected {
+    -moz-background-clip:border;
+    -moz-background-inline-policy:continuous;
+    -moz-background-origin:padding;
+    background:transparent url(https://a.fsdn.com/sf/images/develop/nav/hornav-cur.png) no-repeat scroll 0 0;
+    margin-right:-1px;
+    margin-top:3px;
+    padding:0 0 0 8px;
+}
+.nav li.selected span {
+    -moz-background-clip:border;
+    -moz-background-inline-policy:continuous;
+    -moz-background-origin:padding;
+    background:transparent url(https://a.fsdn.com/sf/images/develop/nav/hornav-cur.png) no-repeat scroll 100% 0;
+    display:block;
+    height:27px;
+    padding:0 8px 0 0;
+}
+.nav li.selected span span {
+    -moz-background-clip:border;
+    -moz-background-inline-policy:continuous;
+    -moz-background-origin:padding;
+    background:transparent url(https://a.fsdn.com/sf/images/develop/nav/hornav-cur.png) no-repeat scroll 50% 0;
+    padding:3px 0 0;
+}
+.nav li.selected a {
+    padding:0;
+}
+#ieonly .nav {
+    position:relative;
+    z-index:10000;
+}
+#hd {
+    display:block;
+    margin:0 0 15px;
+    padding:8px 0 0;
+}
+body.short-head #hd {
+    -moz-background-clip:border;
+    -moz-background-inline-policy:continuous;
+    -moz-background-origin:padding;
+    background:transparent none repeat scroll 0 0;
+    height:84px;
+}
+#hd .yui-b {
+    height:95px;
+    margin:0 auto;
+    position:relative;
+    text-align:left;
+    width:74.923em;
+}
+#ie6only #hd .yui-b {
+    width:73.05em;
+}
+#logo {
+    -moz-background-clip:border;
+    -moz-background-inline-policy:continuous;
+    -moz-background-origin:padding;
+    background:transparent url(../img/logo.png) no-repeat scroll 0 0;
+    clear:none;
+    color:#7F7F7F;
+    display:block;
+    font-size:77%;
+    height:23px;
+    margin:0 0 3px;
+    overflow:hidden;
+    padding:10px 0 2px 213px;
+    position:relative;
+    text-transform:uppercase;
+}
+#metaNav {
+    clear:none;
+    color:#D2D2D2;
+    display:block;
+    float:right;
+    font-size:93%;
+    font-weight:normal;
+    margin:3px 0 0;
+    overflow:hidden;
+    padding:0;
+    white-space:nowrap;
+}
+#metaNav strong {
+    color:#5E5E5E;
+    margin-right:1em;
+}
+#metaNav a {
+    font-weight:bold;
+    padding:0 5px;
+}
+#metaNav strong a {
+    -moz-background-clip:border;
+    -moz-background-inline-policy:continuous;
+    -moz-background-origin:padding;
+    background:transparent none repeat scroll 0 0;
+    font-weight:normal;
+}
+.arwd {
+    -moz-background-clip:border;
+    -moz-background-inline-policy:continuous;
+    -moz-background-origin:padding;
+    background:transparent url(https://a.fsdn.com/sf/images/develop/icons/small-arrow.png) no-repeat scroll 0 0;
+    padding:20px;
+}
+.arwu {
+    -moz-background-clip:border;
+    -moz-background-inline-policy:continuous;
+    -moz-background-origin:padding;
+    background:transparent url(https://a.fsdn.com/sf/images/develop/icons/small-darr.gif) no-repeat scroll 0 0;
+    padding:20px;
+}
+#nav {
+    clear:both;
+    display:block;
+    font-size:116%;
+    height:49px;
+    margin:0 0 0 -10px;
+    padding:0;
+    width:100%;
+}
+#nav li {
+    -moz-background-clip:border;
+    -moz-background-inline-policy:continuous;
+    -moz-background-origin:padding;
+    background:transparent url(https://a.fsdn.com/sf/images/develop/nav/nav-split.gif) no-repeat scroll 100% 14px;
+    clear:none;
+    float:left;
+}
+#nav li.last {
+    background-image:none;
+}
+#nav li a {
+    color:#0092E8;
+    display:block;
+    font-weight:normal;
+    margin:0;
+    padding:15px 10px 14px;
+    position:relative;
+}
+#nav li a:hover {
+    border-bottom:2px solid #0092E8;
+    padding-bottom:8px;
+    text-decoration:none;
+}
+#hd .search {
+    float:right;
+    width:314px;
+}
+#hd .sfBox.search {
+    -moz-background-clip:border;
+    -moz-background-inline-policy:continuous;
+    -moz-background-origin:padding;
+    background:transparent url(https://a.fsdn.com/sf/images/develop/forms/search-header.png) repeat scroll 0 0;
+    border-width:0;
+    display:block;
+    float:none;
+    height:44px;
+    margin:0 0 2px;
+    padding:9px 0 0 9px;
+    width:390px;
+}
+#hd .search input.text {
+    background-image:url(https://a.fsdn.com/sf/images/develop/forms/search-header-input.png);
+    border-right:1px solid #CCCCCC;
+    border-width:0 1px 0 0;
+    clear:none;
+    display:block;
+    float:left;
+    font-size:108%;
+    height:26px;
+    margin:0;
+    padding:9px 0 0 35px;
+    width:200px;
+}
+#hd #additional-h .search input.text {
+    width:268px;
+}
+#hd .search input.hint {
+    color:#7E7E7E;
+}
+#hd .search button {
+    -moz-background-clip:border;
+    -moz-background-inline-policy:continuous;
+    -moz-background-origin:padding;
+    background:transparent url(https://a.fsdn.com/sf/images/develop/buttons/search-green.png) no-repeat scroll 0 0;
+    border-width:0;
+    clear:none;
+    color:#FFFFFF;
+    cursor:pointer;
+    display:block;
+    float:left;
+    font-weight:bold;
+    height:36px;
+    margin:0 0 0 7px;
+    padding:0 0 4px;
+    width:71px;
+}
+#ie6only #hd .search button {
+    background-image:url(https://a.fsdn.com/sf/images/develop/buttons/search-green-ie6.png);
+}
+#hd .sfPickOS {
+    font-size:93%;
+    margin:0 0 0 8px;
+}
+#hd .yui-b #additional-h .yui-u {
+    padding-top:16px;
+    width:55.5713%;
+}
+#hd .yui-b #additional-h .yui-u.first {
+    padding-top:13px;
+    width:42.6286%;
+}
+#additional-h .dotted-link {
+    border-bottom:1px dotted #006CA8;
+    clear:none;
+    color:#006CA8;
+    display:block;
+    float:left;
+    font-size:93%;
+    font-weight:bold;
+    margin:0 0 0 5px;
+    padding:5px 0 0;
+    text-decoration:none;
+}
+#bd {
+    display:block;
+    padding:0;
+}
+#sidebar .sfBox {
+    background-image:url(https://a.fsdn.com/sf/images/develop/boxes/blue-bar.gif);
+    border-width:0;
+    padding:15px 0 0;
+}
+#sidebar .subnav h3 {
+    color:#525252;
+    font-size:116%;
+    font-weight:bold;
+    margin:0 0 0.5em;
+}
+#sidebar #subnav li {
+    -moz-background-clip:border;
+    -moz-background-inline-policy:continuous;
+    -moz-background-origin:padding;
+    background:transparent url(https://a.fsdn.com/sf/images/develop/grey-dots.gif) repeat-x scroll 0 100%;
+    display:block;
+    margin:-1px 0 0;
+}
+#sidebar #subnav li a {
+    -moz-background-clip:border;
+    -moz-background-inline-policy:continuous;
+    -moz-background-origin:padding;
+    background:transparent url(https://a.fsdn.com/sf/images/develop/nav/nav-arrow.png) no-repeat scroll 100% 6px;
+    display:block;
+    height:17px;
+    margin:0;
+    padding:4px 1px 4px 8px;
+    text-decoration:none;
+}
+#sidebar #subnav li:hover a, #sidebar #subnav li.hover a {
+    color:#5E5E5E;
+}
+#sidebar #subnav .inner:hover, #sidebar #subnav .inner.hover {
+    -moz-background-clip:border;
+    -moz-background-inline-policy:continuous;
+    -moz-background-origin:padding;
+    background:transparent url(https://a.fsdn.com/sf/images/develop/nav/flyout-item-top.gif) no-repeat scroll 0 0;
+    position:relative;
+}
+#sidebar #subnav .inner:hover a, #sidebar #subnav .inner.hover a {
+    -moz-background-clip:border;
+    -moz-background-inline-policy:continuous;
+    -moz-background-origin:padding;
+    background:transparent url(https://a.fsdn.com/sf/images/develop/nav/flyout-item-bottom.gif) no-repeat scroll 0 100%;
+}
+#sidebar #subnav li .flyout {
+    -moz-background-clip:border;
+    -moz-background-inline-policy:continuous;
+    -moz-background-origin:padding;
+    background:#FFFFFF url(https://a.fsdn.com/sf/images/develop/nav/flyout-top.gif) no-repeat scroll 0 0;
+    display:none;
+    left:12.5em;
+    margin-bottom:10px;
+    position:absolute;
+    top:0;
+    width:435px;
+    z-index:1;
+}
+#sidebar #subnav li .flyout.single {
+    -moz-background-clip:border;
+    -moz-background-inline-policy:continuous;
+    -moz-background-origin:padding;
+    background:#FFFFFF url(https://a.fsdn.com/sf/images/develop/nav/flyout-top-single.gif) no-repeat scroll 0 0;
+    width:230px;
+}
+#sidebar #subnav li .flyout .frame {
+    -moz-background-clip:border;
+    -moz-background-inline-policy:continuous;
+    -moz-background-origin:padding;
+    background:transparent url(https://a.fsdn.com/sf/images/develop/nav/flyout-bottom.gif) no-repeat scroll 100% 100%;
+    margin-bottom:-10px;
+    overflow:hidden;
+    padding:10px;
+}
+#ie6only #sidebar #subnav li .flyout .frame {
+    height:100%;
+    margin-bottom:0;
+    position:relative;
+    top:10px;
+}
+#sidebar #subnav li .flyout.single .frame {
+    -moz-background-clip:border;
+    -moz-background-inline-policy:continuous;
+    -moz-background-origin:padding;
+    background:transparent url(https://a.fsdn.com/sf/images/develop/nav/flyout-bottom-single.gif) no-repeat scroll 100% 100%;
+}
+#sidebar #subnav li:hover .flyout, #sidebar #subnav li.hover .flyout {
+    display:block;
+}
+#sidebar #subnav li .flyout .related {
+    display:none;
+}
+#sidebar #subnav li .flyout li {
+    background-image:none;
+}
+#sidebar #subnav li .flyout li:hover {
+    font-weight:bold;
+}
+#sidebar #subnav li .flyout li a, #sidebar #subnav li:hover .flyout li a, #sidebar #subnav li.hover .flyout li a {
+    background-image:none;
+    padding:0;
+}
+#sidebar #subnav li .flyout div.first {
+    border-right:1px dotted #B5B5B5;
+}
+#sidebar #subnav li .inner {
+    display:block;
+    margin:0;
+    padding:0;
+}
+#sidebar #subnav li .flyout li {
+    -moz-background-clip:border;
+    -moz-background-inline-policy:continuous;
+    -moz-background-origin:padding;
+    background:transparent url(https://a.fsdn.com/sf/images/develop/nav/flyout-bull.gif) no-repeat scroll 7px 55%;
+    font-weight:normal !important;
+    margin:0.25em 0;
+    padding:0 0 0 20px;
+}
+#sidebar #subnav li .flyout li a {
+    color:#0092E8;
+}
+#sidebar #subnav li .flyout li a:hover {
+    font-weight:normal;
+    text-decoration:underline;
+}
+#sidebar #subnav li .flyout li strong, #sidebar #subnav li .flyout li strong a {
+    font-weight:bold !important;
+}
+#searchtable {
+    border-collapse:separate;
+}
+#searchtable td, #searchtable th {
+    background-image:none;
+    padding:5px;
+    text-align:center;
+}
+th {
+    -moz-background-clip:border;
+    -moz-background-inline-policy:continuous;
+    -moz-background-origin:padding;
+    background:#EEEEEE none repeat scroll 0 0;
+    border:1px solid #CCCCCC;
+    font-weight:bold;
+}
+#searchtable tr th a {
+    color:#5E5E5E;
+}
+td, th {
+    font-size:93%;
+    padding:5px 5px;
+}
+#searchtable th.select {
+    background-color:#DDDDDD;
+}
+#searchtable td.select {
+    font-weight:bold;
+}
+table {
+    margin:1em 0;
+    width:100%;
+}
+.sfBox .help {
+    text-align:right;
+}
+caption {
+    display:none;
+}
+#searchtable .description {
+    border-bottom:1px dotted #AAAAAA;
+    font-size:100%;
+    overflow:hidden;
+    text-align:left;
+}
+#searchtable td.description, #searchtable th.project {
+    padding-left:5px !important;
+}
+#searchtable .download {
+    border-bottom:1px dotted #AAAAAA;
+    padding-left:20px !important;
+}
+#searchtable .screenshot {
+    float:right;
+}
+#searchtable h2 {
+    margin:0;
+    padding:0;
+}
+#searchtable .description ul {
+    margin-top:1em !important;
+}
+#searchtable .description ul li {
+    font-size:93%;
+    margin-bottom:0.6em;
+}
+#searchtable .project {
+    text-align:left;
+    width:50%;
+}
+#searchtable .results {
+    text-align:left;
+}
+#searchtable form input {
+    font-size:100% !important;
+}
+#searchtable form input.query {
+    width:23em;
+}
+ul.hide {
+    display:block;
+}
+ul.hide li {
+    display:none;
+}
+ul.hide li.show {
+    display:block;
+}
+.cnew:hover {
+    text-decoration:underline;
+}
+.cnew {
+    color:#0033CC !important;
+}
+table#searchtable tr#filter0_1 th {
+    -moz-background-clip:border;
+    -moz-background-inline-policy:continuous;
+    -moz-background-origin:padding;
+    background:#444444 none repeat scroll 0 0;
+}
+table#searchtable tr th.gfilters, table#searchtable tr th.gfiltersl {
+    border:medium none;
+    color:#FFFFFF;
+    padding:5px;
+}
+table#searchtable tr#filter0_2 th {
+    -moz-background-clip:border;
+    -moz-background-inline-policy:continuous;
+    -moz-background-origin:padding;
+    background:#444444 none repeat scroll 0 0;
+    border:medium none;
+    color:#FFFFFF;
+}
+thead tr#filter0_2 th a {
+    display:inline;
+}
+table#searchtable tr th.gfilters {
+    text-align:left;
+}
+table#searchtable tr th.gfilters input {
+    font-size:93%;
+}
+table#searchtable tr th.gfiltersl {
+    padding:0.2em 1em;
+    text-align:left;
+}
+table#searchtable tr th.gfiltersl input {
+    width:11em;
+}
+table#searchtable th.cfilters, table#searchtable th.myfilters {
+    -moz-background-clip:border !important;
+    -moz-background-inline-policy:continuous !important;
+    -moz-background-origin:padding !important;
+    background:#444444 none repeat scroll 0 0 !important;
+    border-top:1px solid #333333 !important;
+}
+.myfilters small, .cfilters small, .gfilters small {
+    color:#56626D !important;
+    font-weight:bold;
+}
+table#searchtable th.myfilters {
+    border:medium none;
+    color:#FFFFFF;
+    font-size:85%;
+    font-weight:normal;
+    text-align:left;
+}
+table#searchtable th.cfilters {
+    border:medium none;
+    color:#FFFFFF;
+    font-size:85%;
+    font-weight:normal;
+    text-align:right;
+}
+table#searchtable th.cfilters label {
+    font-weight:normal;
+}
+table#searchtable th.myfilters a, table#searchtable th.cfilters a {
+    color:#FFFFFF;
+    font-size:85%;
+}
+table#searchtable tr th.filteroptions {
+    text-align:right;
+}
+table#searchtable tr th.filteroptions label input {
+    margin:0.3em;
+}
+table#searchtable tr th.filteroptionsl {
+    text-align:left;
+}
+table#searchtable tr th.filteroptionsl, table#searchtable tr th.filteroptions {
+    -moz-background-clip:border;
+    -moz-background-inline-policy:continuous;
+    -moz-background-origin:padding;
+    background:#333333 none repeat scroll 0 0;
+    border:medium none;
+    color:#FFFFFF;
+}
+h4 {
+    font-weight:bold;
+}
+span.meta {
+    margin-left:0 !important;
+}
+.meta {
+    color:#A5A5A5;
+    font-size:85%;
+    margin:0;
+}
+div.sfBox.feed ul li {
+    -moz-background-clip:border;
+    -moz-background-inline-policy:continuous;
+    -moz-background-origin:padding;
+    background:transparent url(https://a.fsdn.com/sf/images/develop/homepage/hot-dots-hor.gif) repeat-x scroll 0 0;
+    overflow:hidden;
+    padding:10px 0;
+}
+div.sfBox.feed ul li:first-child {
+    -moz-background-clip:border;
+    -moz-background-inline-policy:continuous;
+    -moz-background-origin:padding;
+    background:transparent none repeat scroll 0 0;
+}
+#ft {
+    -moz-background-clip:border;
+    -moz-background-inline-policy:continuous;
+    -moz-background-origin:padding;
+    background:#FFFFFF url(https://a.fsdn.com/sf/images/develop/footer-back.gif) repeat-x scroll 0 48px;
+    border-top:1px solid #CEEAFB;
+    height:261px;
+    text-align:left;
+}
+#ft div.cols {
+    margin-bottom:30px;
+}
+#ft div.cols div.col {
+    display:inline;
+    float:left;
+    width:20%;
+}
+#ieonly #ft div.cols div.col {
+    width:19.95%;
+}
+#ft .yui-b {
+    margin:0 auto;
+    width:74.923em;
+}
+#ie6only #ft .yui-b {
+    width:73.05em;
+}
+#ft .sinfo {
+    font-size:108%;
+    height:34px;
+    margin-bottom:20px;
+    padding-top:13px;
+}
+#ft .sinfo strong, #ft .sinfo a, #ft .sinfo span {
+    clear:none;
+    display:block;
+    float:left;
+}
+#ft .sinfo strong {
+    color:#43C401;
+    font-weight:bold;
+    padding-top:4px;
+}
+#ft .sinfo a {
+    color:#626161;
+}
+#ft .sinfo a.arrow-icon {
+    color:#0092E8;
+}
+#ft .sinfo span.vert-devider {
+    background-image:url(https://a.fsdn.com/sf/images/develop/dots-vert.gif);
+    height:24px;
+    margin:0 8px 0 7px;
+    width:1px;
+}
+#ft .col ul {
+    border-left:1px solid #B1DDF8;
+    padding:6px 0 0 13px;
+}
+#ft .col li {
+    position:relative;
+}
+#ft .col h4 {
+    color:#0092E8;
+    display:block;
+    font-size:116%;
+    font-weight:bold;
+    margin:0 0 0 14px;
+    padding:0;
+}
+#ft .col li a {
+    -moz-background-clip:border;
+    -moz-background-inline-policy:continuous;
+    -moz-background-origin:padding;
+    background:transparent url(https://a.fsdn.com/sf/images/develop/icons/small-arrow.png) no-repeat scroll 0 2px;
+    display:block;
+    font-weight:normal;
+    margin:0 0 3px;
+    padding:0 0 0 17px;
+}
+#ft .copyright {
+    display:block;
+    font-size:85%;
+    margin:0 auto;
+    padding:0;
+    text-align:center;
+    width:570px;
+}
+#ft .copyright span {
+    clear:none;
+    float:left;
+    padding:4px 0 0 3px;
+}
+#ft .copyright .logo {
+    -moz-background-clip:border;
+    -moz-background-inline-policy:continuous;
+    -moz-background-origin:padding;
+    background:transparent url(https://a.fsdn.com/sf/images/develop/logo-foot.png) no-repeat scroll 0 0;
+    clear:none;
+    display:block;
+    float:left;
+    height:0;
+    margin:0;
+    overflow:hidden;
+    padding:22px 0 0;
+    width:128px;
+}
+.clearfix:after, .sfBox:after {
+    clear:both;
+    content:".";
+    display:block;
+    height:0;
+    visibility:hidden;
+}
+.clearfix, .sfBox {
+    display:inline-block;
+}
+* html .clearfix, * html .sfBox {
+    height:1%;
+}
+.clearfix, .sfBox {
+    display:block;
+}
+.b-photo-frame, .b-photo-frame span {
+    -moz-background-clip:border;
+    -moz-background-inline-policy:continuous;
+    -moz-background-origin:padding;
+    background:transparent url(https://a.fsdn.com/sf/images/develop/photo-frame.png) no-repeat scroll 100% 0;
+    display:block;
+    padding:5px 0 0;
+}
+.b-photo-frame span {
+    background-position:0 100%;
+    padding:0 0 0 5px;
+}
+.b-photo-frame span span {
+    background-position:100% 100%;
+    padding:0 5px 5px 0;
+}
+#project-of-month .icon.download-icon-2 {
+    margin:13px 0 20px;
+}
+.ph-title {
+    color:#525252 !important;
+    display:inline;
+    font-size:167% !important;
+    font-weight:bold;
+    margin:0 !important;
+}
+.project_support_header {
+    color:#7F7F7F;
+    padding-top:1em;
+}
+h2.project_support_header {
+    color:#BF0705 !important;
+    padding-bottom:0.5em;
+    padding-top:0;
+}
+h3.project_support_header {
+    padding-top:0;
+}
+.ads {
+    margin-bottom:15px;
+}
+.downloadAds .yui-g {
+    margin:1em auto;
+    width:800px;
+}
+.downloadAds .yui-g .ads {
+    margin-left:auto;
+    margin-right:auto;
+    width:300px;
+}
+.thanks {
+    color:#AAAAAA;
+    text-align:center;
+}
+.immersion {
+    margin:0 auto;
+    width:700px;
+}
+#bd .downloading h1, .downloading h1 {
+    font-size:146.5% !important;
+    font-weight:bold;
+}
+.downloading h1 a {
+    color:#0092E8;
+}
+.deck {
+    margin-top:10px;
+}
+.deck .yui-u.first {
+    text-align:left;
+}
+.deck .yui-u {
+    text-align:right;
+}
+#fad19 p {
+    float:left;
+    margin:0 2% 0 0;
+    min-height:6em;
+    width:30%;
+}
+#fad19 p:last-child {
+    margin:0;
+    width:29%;
+}
+#fad19 p {
+    -moz-background-clip:border;
+    -moz-background-inline-policy:continuous;
+    -moz-background-origin:padding;
+    background:#FFFFFF url(http://a.fsdn.com/sf/images/phoneix/grad_dark_50.png) repeat-x scroll center bottom;
+    border:1px solid #CCCCCC;
+    color:#222222;
+    height:100%;
+    padding:1%;
+}
+#fad19 {
+    display:block;
+    margin-bottom:2em;
+    text-align:left;
+}
+#fad19 img {
+    display:block;
+}
+#fad19 p small a.desc {
+    color:#222222 !important;
+    text-decoration:none;
+}
+div.sfBox.contributors ul {
+    margin-bottom:1em;
+}
+div.sfBox.contributors ul li {
+    display:inline;
+    float:left;
+    margin-right:2%;
+    overflow:hidden;
+    width:18%;
+}
+div.sfBox.related ul li {
+    display:inline;
+    float:left;
+    margin-right:2%;
+    overflow:hidden;
+    width:18%;
+}
+div.sfBox.treeView table {
+    margin:0;
+}
+div.sfBox.treeView td {
+    border-bottom:1px dotted #939798;
+    font-size:85%;
+    padding:5px;
+}
+div.sfBox.treeView tr.header td {
+    font-weight:bold;
+}
+div.sfBox.treeView tr.level1.latest td {
+    background-color:#E0F2E4;
+}
+div.sfBox.treeView tr.level1 td {
+    background-color:#DAEBF5;
+}
+div.sfBox.treeView tr.level2 td {
+    background-color:#EEF6F9;
+}
+div.sfBox.treeView tr.level2 td.tree {
+    padding-left:25px;
+}
+div.sfBox.treeView tr.level3 td.tree {
+    padding-left:50px;
+}
+div.sfBox.treeView tr.level4 td.tree {
+    padding-left:75px;
+}
+div.sfBox.treeView a.icon.folder {
+    -moz-background-clip:border;
+    -moz-background-inline-policy:continuous;
+    -moz-background-origin:padding;
+    background:transparent url(https://a.fsdn.com/sf/images/develop/icon_plus.gif) no-repeat scroll 0 3px;
+    color:#000000;
+    padding-left:12px;
+}
+div.sfBox.treeView .open a.icon.folder {
+    -moz-background-clip:border;
+    -moz-background-inline-policy:continuous;
+    -moz-background-origin:padding;
+    background:transparent url(https://a.fsdn.com/sf/images/develop/icon_minus.gif) no-repeat scroll 0 3px;
+}
+div.sfBox.treeView a.icon.folder:hover {
+    text-decoration:none;
+}
+div.sfBox.treeView .hidden {
+    display:none;
+}
+div.sfBox.carousel a.prev, div.sfBox.carousel a.next {
+    -moz-background-clip:border;
+    -moz-background-inline-policy:continuous;
+    -moz-background-origin:padding;
+    background:transparent url(https://a.fsdn.com/sf/images/develop/iconPrevious.png) no-repeat scroll 0 0;
+    height:75px;
+    left:-10px;
+    margin-top:-37px;
+    overflow:hidden;
+    position:absolute;
+    text-indent:-5000px;
+    top:50%;
+    width:70px;
+    z-index:3;
+}
+div.sfBox.carousel a.next {
+    -moz-background-clip:border;
+    -moz-background-inline-policy:continuous;
+    -moz-background-origin:padding;
+    background:transparent url(https://a.fsdn.com/sf/images/develop/iconNext.png) no-repeat scroll 0 0;
+    left:auto;
+    right:-10px;
+}
+div.sfBox.carousel a.prev:focus, div.sfBox.carousel a.next:focus {
+    outline-color:-moz-use-text-color;
+    outline-style:none;
+    outline-width:medium;
+}
+div.sfBox.carousel div.wrapper {
+    margin:0 -1.5em;
+    padding:0 55px;
+    position:relative;
+}
+div.sfBox.carousel div.content ul li {
+    display:inline;
+    float:left;
+    width:50%;
+}
+div.sfBox.carousel div.content ul li div {
+    padding:0 10px 0 110px;
+}
+div.sfBox.carousel div.content ul.noCol li div, div.sfBox.carousel div.content ul li.noCol div {
+    padding-left:0;
+}
+div.sfBox.carousel div.content ul li div.col {
+    display:inline;
+    float:left;
+    margin-left:-110px;
+    padding:0;
+}
+.b-hornav {
+    margin:0 0 0.5em -8px;
+    overflow:hidden;
+}
+.b-hornav li {
+    -moz-background-clip:border;
+    -moz-background-inline-policy:continuous;
+    -moz-background-origin:padding;
+    background:transparent url(https://a.fsdn.com/sf/images/develop/nav/hornav-split.png) no-repeat scroll 0 2px;
+    float:left;
+    height:27px;
+    margin:0 0 0 -1px;
+}
+.b-hornav li.first {
+    -moz-background-clip:border;
+    -moz-background-inline-policy:continuous;
+    -moz-background-origin:padding;
+    background:transparent none repeat scroll 0 0;
+    margin:0;
+}
+.b-hornav li a {
+    display:block;
+    padding:3px 8px 0;
+}
+.b-hornav li.selected {
+    -moz-background-clip:border;
+    -moz-background-inline-policy:continuous;
+    -moz-background-origin:padding;
+    background:transparent url(https://a.fsdn.com/sf/images/develop/nav/hornav-cur.png) no-repeat scroll 0 0;
+    padding:0 0 0 8px;
+}
+.b-hornav li.selected span {
+    -moz-background-clip:border;
+    -moz-background-inline-policy:continuous;
+    -moz-background-origin:padding;
+    background:transparent url(https://a.fsdn.com/sf/images/develop/nav/hornav-cur.png) no-repeat scroll 100% 0;
+    display:block;
+    height:27px;
+    padding:0 8px 0 0;
+}
+.b-hornav li.selected span span {
+    -moz-background-clip:border;
+    -moz-background-inline-policy:continuous;
+    -moz-background-origin:padding;
+    background:transparent url(https://a.fsdn.com/sf/images/develop/nav/hornav-cur.png) no-repeat scroll 50% 0;
+    padding:3px 0 0;
+}
+.b-hornav li.selected a {
+    display:inline;
+    padding:0;
+}
+.b-user {
+}
+.b-user__side {
+    float:right;
+    margin:0 0 0.5em 0.5em;
+}
+.b-user__side .button-customize {
+    float:right;
+    margin:0 0 0 1em;
+}
+.b-proj {
+}
+.b-proj__side {
+    float:right;
+    margin:0 0 0.5em 0.5em;
+}
+.b-proj__side .button-donate {
+    float:right;
+    margin:0 0 0 1em;
+}
+.b-proj__side .button-watch {
+    float:right;
+    margin:0 0 0 1em;
+}
+.b-proj__side .button-share {
+    float:right;
+    margin:0 0 0 1em;
+}
+.b-proj__side .button-monitor {
+    float:right;
+    margin:0 0 0 1em;
+}
+.b-proj__side .button-customize {
+    float:right;
+    margin:0 0 0 1em;
+}
+.b-proj__side .awards {
+    float:right;
+    padding:1px 0 0;
+}
+span.award-bar {
+    float:right;
+    margin:5px 5px 0;
+}
+.b-proj__side .awards a {
+    margin:0 0 0 0.5em;
+}
+.b-proj__header {
+    margin:0 0 0.5em;
+    overflow:hidden;
+}
+.b-proj__header .ph-ico {
+    vertical-align:middle;
+}
+.b-proj__header .ph-title {
+    color:#525252 !important;
+    display:inline;
+    font-size:167% !important;
+    font-weight:bold;
+    margin:0 !important;
+}
+.b-proj__header .ph-developer {
+    color:#999999;
+    display:inline;
+    font-size:123.1%;
+}
+.b-proj__picrel {
+    float:left;
+    margin:0 1.5em 0.5em 0;
+}
+.b-proj__picrel .pp-pic {
+    margin:0 0 0.5em;
+}
+.b-proj__descr {
+    overflow:hidden;
+}
+.b-proj__descr p {
+    line-height:normal;
+}
+.b-proj__descr .pd-txt {
+    color:#777777;
+    font-size:93%;
+    line-height:140%;
+    margin:0 0 0.75em;
+}
+.b-proj__descr .pd-highlight {
+    background-color:#E8F5FD;
+}
+.b-proj__descr .pd-dload {
+    margin:0 0 0.5em;
+    overflow:hidden;
+}
+.b-proj__descr .pd-dload span {
+    font-size:93%;
+}
+.b-proj__descr .pd-dload span strong {
+    font-size:116%;
+}
+.b-proj__descr .pd-dload b {
+    -moz-background-clip:border;
+    -moz-background-inline-policy:continuous;
+    -moz-background-origin:padding;
+    background:transparent url(https://a.fsdn.com/sf/images/develop/buttons/dload.png) no-repeat scroll -5px -25px;
+    font-weight:normal;
+    left:180px;
+    padding:0 4px;
+    position:absolute;
+}
+.b-proj__descr .pd-dload em {
+    display:block;
+    float:left;
+    font-style:normal;
+    margin:0 10px 0 0;
+    max-width:195px;
+    overflow:hidden;
+    position:relative;
+    white-space:nowrap;
+}
+.b-proj__descr .pd-dload small {
+    color:#B2B2B2;
+    float:left;
+    font-size:85%;
+    font-weight:bold;
+    padding:17px 1em 0;
+}
+.b-proj__descr .pd-dload .button-more {
+    margin:10px 0 0;
+}
+.b-proj__descr .pd-awards {
+    -moz-background-clip:border;
+    -moz-background-inline-policy:continuous;
+    -moz-background-origin:padding;
+    background:transparent url(https://a.fsdn.com/sf/images/develop/icons/awards.png) no-repeat scroll 0 0.25em;
+    font-size:93%;
+    height:16px;
+    margin:0 0 0.25em;
+    padding:0.1em 0 0 34px;
+}
+.b-proj__descr .pd-www {
+    -moz-background-clip:border;
+    -moz-background-inline-policy:continuous;
+    -moz-background-origin:padding;
+    background:transparent url(https://a.fsdn.com/sf/images/develop/icons/www.png) no-repeat scroll 0 0.25em;
+    font-size:93%;
+    height:16px;
+    margin:0 0 0.25em;
+    padding:0.3em 0 0 34px;
+}
+.b-proj__descr .pd-tags {
+    -moz-background-clip:border;
+    -moz-background-inline-policy:continuous;
+    -moz-background-origin:padding;
+    background:transparent url(https://a.fsdn.com/sf/images/develop/icons/tags.png) no-repeat scroll 0 0.25em;
+    font-size:93%;
+    height:16px;
+    margin:0 0 0.25em;
+    padding:0.3em 0 0 34px;
+}
+.b-proj__descr .pd-share {
+    margin:1em 0 0;
+}
+#feedFilter {
+    display:inline;
+}
+input.text, input.password {
+    border:1px solid #CCCCCC;
+    font-size:93%;
+    padding:2px 6px;
+    width:276px;
+}
+.yui-b input.text, .yui-b input.password {
+    width:240px;
+}
+#yui-main .yui-b input.text, #yui-main .yui-b input.password {
+    width:276px;
+}
+textarea {
+    border:1px solid #CCCCCC;
+    font-size:93%;
+    height:75px;
+    padding:2px 6px;
+    width:408px;
+}
+form fieldset {
+    border:medium none;
+}
+form h3, form h4 {
+    border-bottom:1px dotted #878787;
+    margin-bottom:1em;
+    padding-bottom:0.5em;
+}
+.req {
+    color:#FF3500;
+}
+p.error {
+    font-size:93%;
+    font-weight:bold;
+}
+form span.error {
+    color:#FF3500;
+    display:block;
+}
+form div.item.error label {
+    color:#FF3500;
+}
+form div.error input.text, form div.error input.password, form div.error textarea {
+    border:2px solid #FF3500;
+    padding:0 5px;
+}
+form div.item {
+    margin-bottom:10px;
+}
+form div.item .help {
+    font-size:77%;
+}
+form div.item label {
+    color:#666666;
+    font-size:93%;
+    font-weight:normal;
+}
+form div.field {
+}
+form fieldset.cols div.item {
+    display:inline;
+    float:left;
+    width:50%;
+}
+form fieldset.cols div.item input.text {
+    width:276px;
+}
+form fieldset.cols div.item select {
+    width:290px;
+}
+form.horizontal fieldset {
+    border:medium none;
+    padding:7px 0;
+}
+form.horizontal input.text, form.horizontal input.password {
+    width:150px;
+}
+form.horizontal div {
+    display:inline;
+    float:left;
+    margin:0 5px 5px 0;
+    padding:0;
+}
+* html form.horizontal div {
+    height:2em;
+}
+form.horizontal div label {
+    display:inline;
+    float:none;
+    margin-left:0;
+}
+form.horizontal div div.nolabel {
+    margin:0;
+    padding-top:12px;
+}
+ol, ul.bullets {
+    margin:0.5em 0 1em;
+}
+ol li {
+    list-style-image:none;
+    list-style-position:inside;
+    list-style-type:decimal;
+}
+ol li .project-popular {
+    display:inline;
+}
+.project-popular .trove_cats {
+    color:#7E7E7E;
+    font-size:85%;
+    padding-right:4.5em;
+}
+#bd .clean li {
+    margin:0;
+    padding:0.3em 0.3em 0.3em 0;
+}
+ul.bullets li {
+    list-style-image:none;
+    list-style-position:outside;
+    list-style-type:square;
+    padding-left:10px;
+}
+ul.listCol li {
+    padding-left:60px;
+}
+ul.listCol li div.col {
+    display:inline;
+    float:left;
+    margin-left:-60px;
+}
+ul.listCol.medium li, ul.listCol li.medium {
+    padding-left:110px;
+}
+ul.listCol.medium li div.col, ul.listCol li.medium div.col {
+    margin-left:-110px;
+}
+ul.listCol.large li, ul.listCol li.large {
+    padding-left:160px;
+}
+ul.listCol.large li div.col, ul.listCol li.large div.col {
+    margin-left:-160px;
+}
+div#breadcrumbs {
+    font-size:85%;
+    padding:0 0 1.2em;
+    position:relative;
+}
+div#breadcrumbs .selected {
+    color:#5E5E5E;
+    font-weight:normal;
+}
+div.pagination {
+    margin:0.5em 1em;
+}
+div.pagination p {
+    font-weight:bold;
+    margin:0;
+}
+div.pagination ul {
+    float:right;
+}
+div.pagination ul li {
+    display:inline;
+}
+div.expandable, div.expandable .handle {
+    color:#0067A7;
+}
+div.expandable .handle {
+    -moz-background-clip:border;
+    -moz-background-inline-policy:continuous;
+    -moz-background-origin:padding;
+    background:transparent url(https://a.fsdn.com/sf/images/develop/icon_minus.gif) no-repeat scroll 0 0.3em;
+    padding-left:20px;
+    text-decoration:none;
+}
+div.expandable .handle:hover {
+    color:#404040;
+    text-decoration:none;
+}
+div.expandable div.content {
+    padding:10px 20px;
+}
+div.expandable.hide .handle {
+    background-image:url(https://a.fsdn.com/sf/images/develop/icon_plus.gif);
+    background-position:0 0.3em;
+}
+div.expandable.hide div.content {
+    display:none;
+}
+p.filterHelp {
+    display:inline;
+    float:right;
+}
+p.mirrorImage {
+    font-size:85%;
+    font-weight:bold;
+}
+.ui-widget-overlay {
+    -moz-background-clip:border;
+    -moz-background-inline-policy:continuous;
+    -moz-background-origin:padding;
+    background:#FFFFFF none repeat scroll 0 0;
+    height:100%;
+    left:0;
+    opacity:0.8;
+    position:absolute;
+    top:0;
+    width:100%;
+}
+.ui-widget-content {
+    -moz-background-clip:border;
+    -moz-background-inline-policy:continuous;
+    -moz-background-origin:padding;
+    -moz-border-radius-bottomleft:5px;
+    -moz-border-radius-bottomright:5px;
+    background:#FFFFFF url(https://a.fsdn.com/sf/images/develop/boxes/grey-bar.gif) repeat-x scroll 0 0;
+    border-color:#D2D2D2;
+    border-style:solid;
+    border-width:0 1px 1px;
+    margin-bottom:15px;
+    padding:16px 11px 13px 14px;
+}
+.ui-widget-content {
+    background-image:url(https://a.fsdn.com/sf/images/develop/boxes/blue-bar.gif);
+    border-color:#9ED6F6;
+    border-style:solid;
+    border-width:0 1px 1px;
+}
+.ui-widget-header {
+    -moz-background-clip:border;
+    -moz-background-inline-policy:continuous;
+    -moz-background-origin:padding;
+    background:#E8F5FD none repeat scroll 0 0;
+    border-bottom:1px solid #CEEAFB;
+    margin:-10px -11px 0 -14px;
+    padding:10px 15px;
+}
+.ui-widget-header h2 {
+    color:#5E5E5E;
+}
+.ui-dialog-title {
+    color:#5E5E5E;
+    font-size:116%;
+    font-weight:bold;
+    text-align:left;
+}
+.ui-dialog.moreScreenshotsDialog div.contentContainer {
+    position:relative;
+}
+.ui-dialog.moreScreenshotsDialog .wrapper {
+    position:relative;
+}
+.ui-dialog.moreScreenshotsDialog .ui-dialog-content {
+    padding:0;
+}
+.ui-dialog.moreScreenshotsDialog div.images a.prev, .ui-dialog.moreScreenshotsDialog div.images a.next {
+    height:75px;
+    margin-top:-37px;
+    overflow:hidden;
+    position:absolute;
+    text-indent:-9999em;
+    top:50%;
+    width:70px;
+}
+.ui-dialog.moreScreenshotsDialog div.images a.prev {
+    -moz-background-clip:border;
+    -moz-background-inline-policy:continuous;
+    -moz-background-origin:padding;
+    background:transparent url(https://a.fsdn.com/sf/images/develop/iconPrevious.png) repeat scroll 0 0;
+    left:-35px;
+}
+.ui-dialog.moreScreenshotsDialog div.images a.next {
+    -moz-background-clip:border;
+    -moz-background-inline-policy:continuous;
+    -moz-background-origin:padding;
+    background:transparent url(https://a.fsdn.com/sf/images/develop/iconNext.png) repeat scroll 0 0;
+    right:-35px;
+}
+.ui-dialog.moreScreenshotsDialog div.content {
+    margin:0 60px;
+    text-align:center;
+}
+.ui-dialog.moreScreenshotsDialog div.thumbsContainer {
+    border-top:1px solid #CCCCCC;
+    padding-top:10px;
+    position:relative;
+}
+.ui-dialog.moreScreenshotsDialog div.thumbs {
+    border-top:1px solid #C4C4C4;
+    margin-top:1em;
+    padding-bottom:1em;
+    padding-top:1em;
+}
+.ui-dialog.moreScreenshotsDialog div.thumbs a.prev, .ui-dialog.moreScreenshotsDialog div.thumbs a.next {
+    height:24px;
+    margin-top:-12px;
+    overflow:hidden;
+    position:absolute;
+    text-indent:-9999em;
+    top:50%;
+    width:23px;
+}
+.ui-dialog.moreScreenshotsDialog div.thumbs a.prev {
+    -moz-background-clip:border;
+    -moz-background-inline-policy:continuous;
+    -moz-background-origin:padding;
+    background:transparent url(https://a.fsdn.com/sf/images/develop/iconPreviousSmall.png) repeat scroll 0 0;
+    left:0;
+    margin-left:1em;
+}
+.ui-dialog.moreScreenshotsDialog div.thumbs a.next {
+    -moz-background-clip:border;
+    -moz-background-inline-policy:continuous;
+    -moz-background-origin:padding;
+    background:transparent url(https://a.fsdn.com/sf/images/develop/iconNextSmall.png) repeat scroll 0 0;
+    margin-right:1em;
+    right:0;
+}
+.ui-dialog.moreScreenshotsDialog div.thumbs {
+    clear:both;
+    margin:auto;
+}
+.ui-dialog.moreScreenshotsDialog div.thumbs li {
+    float:left;
+    margin:0 2px;
+}
+.ui-dialog label {
+    display:inline-block;
+    font-size:93%;
+    font-weight:bold;
+    line-height:normal;
+    padding-top:3px;
+    vertical-align:top;
+    width:10em;
+}
+.ui-dialog.keywordSearchDialog {
+    -moz-border-radius-topleft:0;
+    -moz-border-radius-topright:0;
+    background-image:none;
+    border-top:1px solid #CCCCCC;
+    font-size:93%;
+    font-weight:bold;
+}
+.ui-dialog.keywordSearchDialog .ui-dialog-titlebar {
+    display:none;
+}
+.ui-dialog.keywordSearchDialog .ui-dialog-content {
+    padding:0 8px 5px;
+}
+.ui-dialog.keywordSearchDialog h3 {
+    border-bottom:1px dotted #9C9C9C;
+    color:#33B150;
+    font-weight:bold;
+    margin-bottom:9px;
+    padding-bottom:3px;
+    text-transform:uppercase;
+}
+.ui-dialog.keywordSearchDialog .allResults {
+    float:right;
+    font-size:93%;
+    margin-bottom:0.5em;
+}
+div.tooltipContent {
+    display:none;
+}
+.ui-dialog.toolTip {
+    -moz-background-clip:border;
+    -moz-background-inline-policy:continuous;
+    -moz-background-origin:padding;
+    -moz-border-radius-bottomleft:0;
+    -moz-border-radius-bottomright:0;
+    -moz-border-radius-topleft:0;
+    -moz-border-radius-topright:0;
+    background:transparent none repeat scroll 0 0;
+    border:medium none;
+    padding-top:11px;
+}
+.ui-dialog.toolTip .arrow {
+    -moz-background-clip:border;
+    -moz-background-inline-policy:continuous;
+    -moz-background-origin:padding;
+    background:transparent url(https://a.fsdn.com/sf/images/develop/tooltipArrow.png) no-repeat scroll 0 0;
+    height:12px;
+    left:25px;
+    position:absolute;
+    top:0;
+    width:21px;
+}
+.ui-dialog.toolTip .ui-dialog-content {
+    -moz-background-clip:border;
+    -moz-background-inline-policy:continuous;
+    -moz-background-origin:padding;
+    -moz-border-radius-bottomleft:8px;
+    -moz-border-radius-bottomright:8px;
+    -moz-border-radius-topleft:8px;
+    -moz-border-radius-topright:8px;
+    background:#E1F6E7 none repeat scroll 0 0;
+    border:1px solid #B8B8B8;
+    padding:12px;
+}
+.ui-dialog.noTitle .ui-dialog-titlebar {
+    padding:0;
+}
+.ui-dialog .chooseMirror .mirrorsContainer {
+    height:400px;
+    overflow-y:scroll;
+}
+.ui-dialog .donateContainer .icon.inline {
+    margin-right:1em;
+}
+.ui-dialog .donateContainer table {
+    border-color:#A5A9AC;
+    border-style:solid;
+    border-width:1px 0;
+    width:auto;
+}
+.ui-dialog .donateContainer table th {
+    -moz-background-clip:border;
+    -moz-background-inline-policy:continuous;
+    -moz-background-origin:padding;
+    background:#EEF6F9 none repeat scroll 0 0;
+    border-bottom:1px dotted #939798;
+}
+.ui-dialog .donateContainer table th, .ui-dialog .donateContainer table td {
+    padding:11px 16px 11px 0;
+}
+.ui-dialog .donateContainer table th.first, .ui-dialog .donateContainer table td.first {
+    padding-left:16px;
+}
+.ui-slider {
+    -moz-background-clip:border;
+    -moz-background-inline-policy:continuous;
+    -moz-background-origin:padding;
+    background:#C7CBCD none repeat scroll 0 0;
+    border-bottom:1px solid #E5E7EA;
+    border-top:1px solid #EDEDED;
+    height:1px;
+    margin-bottom:10px;
+    position:relative;
+}
+.ui-slider .ui-slider-handle {
+    -moz-background-clip:border;
+    -moz-background-inline-policy:continuous;
+    -moz-background-origin:padding;
+    background:#CCCCCC none repeat scroll 0 0;
+    cursor:default;
+    height:16px;
+    position:absolute;
+    width:16px;
+    z-index:2;
+}
+.ui-slider .ui-slider-range {
+    -moz-background-clip:border;
+    -moz-background-inline-policy:continuous;
+    -moz-background-origin:padding;
+    background:#F6A828 none repeat scroll 0 0;
+    display:block;
+    position:absolute;
+    z-index:1;
+}
+.ui-slider-value {
+    border:0 none;
+    color:#404040;
+    margin:1em 0 0;
+    text-align:center;
+}
+.ui-slider-horizontal {
+    margin:5px 0;
+}
+.ui-slider-horizontal .ui-slider-handle {
+    -moz-background-clip:border;
+    -moz-background-inline-policy:continuous;
+    -moz-background-origin:padding;
+    background:transparent url(https://a.fsdn.com/sf/images/develop/slider.gif) no-repeat scroll 0 0;
+    height:23px;
+    margin-left:-8px;
+    top:-10px;
+    width:13px;
+}
+.ui-slider-horizontal .ui-slider-range {
+    -moz-background-clip:border;
+    -moz-background-inline-policy:continuous;
+    -moz-background-origin:padding;
+    background:transparent url(https://a.fsdn.com/sf/images/develop/sliderRangeBackground.gif) repeat-x scroll 0 0;
+    height:23px;
+    top:-3px;
+}
+.ui-slider-horizontal .ui-slider-range-min {
+    left:0;
+}
+.ui-slider-horizontal .ui-slider-range-max {
+    right:0;
+}
+.StyledSelect {
+    cursor:pointer;
+    position:relative;
+}
+.StyledSelect .label {
+    border:1px solid #333333;
+    width:100%;
+}
+.StyledSelect .label.hover {
+    -moz-background-clip:border;
+    -moz-background-inline-policy:continuous;
+    -moz-background-origin:padding;
+    background:#CCCCCC none repeat scroll 0 0;
+}
+.StyledSelect .icon {
+    padding:0 2px;
+}
+.StyledSelect .ulContainer {
+    -moz-background-clip:border;
+    -moz-background-inline-policy:continuous;
+    -moz-background-origin:padding;
+    background:white none repeat scroll 0 0;
+    border-color:-moz-use-text-color #333333 #333333;
+    border-style:none solid solid;
+    border-width:medium 1px 1px;
+    position:absolute;
+    width:100%;
+}
+.StyledSelect .ulContainer ul {
+    list-style-type:none;
+    margin:0;
+    padding:0;
+}
+.StyledSelect .ulContainer ul li {
+    padding:0 2px;
+}
+.StyledSelect .ulContainer ul li.selected {
+    -moz-background-clip:border;
+    -moz-background-inline-policy:continuous;
+    -moz-background-origin:padding;
+    background:#CCCCFF none repeat scroll 0 0;
+}
+.StyledSelect .ulContainer ul li.hover {
+    -moz-background-clip:border;
+    -moz-background-inline-policy:continuous;
+    -moz-background-origin:padding;
+    background:#CCCCCC none repeat scroll 0 0;
+}
+.ui-tabs-nav li a {
+    padding:5px 10px;
+}
+.ui-tabs-nav li.ui-tabs-selected a {
+    border-bottom:1px solid #FFFFFF;
+    padding:5px 10px;
+}
+#bd .error, #bd .warning, #bd .info, #bd .message {
+    -moz-border-radius-bottomleft:5px;
+    -moz-border-radius-bottomright:5px;
+    -moz-border-radius-topleft:5px;
+    -moz-border-radius-topright:5px;
+    clear:both;
+    font-weight:normal;
+    margin:10px 0;
+    padding:10px;
+}
+#bd .message {
+    -moz-background-clip:border;
+    -moz-background-inline-policy:continuous;
+    -moz-background-origin:padding;
+    background:#DDFFDD none repeat scroll 0 0;
+    border:1px solid #BBFFBB;
+}
+#bd .warning {
+    -moz-background-clip:border;
+    -moz-background-inline-policy:continuous;
+    -moz-background-origin:padding;
+    background:#FDFEB8 none repeat scroll 0 0;
+    border:1px solid #FFBB00;
+}
+#bd .error {
+    -moz-background-clip:border;
+    -moz-background-inline-policy:continuous;
+    -moz-background-origin:padding;
+    background:#FFDDDD none repeat scroll 0 0;
+    border:1px solid #FFBBBB;
+}
+#bd .info {
+    -moz-background-clip:border;
+    -moz-background-inline-policy:continuous;
+    -moz-background-origin:padding;
+    background:#DDEEFF none repeat scroll 0 0;
+    border:1px solid #99CCFF;
+}
+.sfBox li.item {
+    margin-bottom:0.5em;
+}
+.forum-buttonbar {
+    float:right;
+    margin:0 0 0.5em 0.5em;
+}
+.forum-buttonbar .button-forum1 {
+    float:right;
+    margin:0 0 0 1em;
+}
+.forum-buttonbar .button-forum2 {
+    float:right;
+    margin:0 0 0 1em;
+}
+#ie7only .forum-buttonbar .button-forum1 {
+    margin-top:-15px;
+}
+ol#forum-topic {
+    margin-left:150px;
+}
+ol#forum-topic .message-box {
+    margin-bottom:50px;
+}
+ol#forum-topic .message-author {
+    margin-left:-165px;
+    position:absolute;
+    text-align:center;
+    width:165px;
+}
+ol#forum-topic .message-delete {
+    margin-left:-130px;
+    margin-top:45px;
+    position:absolute;
+    z-index:1000;
+}
+ol#forum-topic .message-content {
+}
+ol#forum-topic .message-content .message-date {
+    -moz-background-clip:border;
+    -moz-background-inline-policy:continuous;
+    -moz-background-origin:padding;
+    background:transparent url(https://a.fsdn.com/sf/images//develop/grey-dots.gif) repeat-x scroll 0 100%;
+    margin-bottom:5px;
+    padding-bottom:5px;
+    text-align:right;
+}
+a.forums-subscribe {
+    float:right;
+    margin:-3px 0 0;
+}
+#ie7only .forums-subscribe {
+    width:1px;
+}
+.author-name {
+    -moz-background-clip:border;
+    -moz-background-inline-policy:continuous;
+    -moz-background-origin:padding;
+    background:#DDDDDD none repeat scroll 0 0;
+    color:#555555;
+    margin-right:2px;
+    padding:5px 13px;
+}
+.forum-heading {
+    border:medium none;
+    font-size:116%;
+}
+.forum-saving {
+    -moz-background-clip:border;
+    -moz-background-inline-policy:continuous;
+    -moz-background-origin:padding;
+    background:transparent url(https://a.fsdn.com/sf/images/develop/indicator.gif) no-repeat scroll 0 0;
+    display:none;
+    height:30px;
+    padding:0 0 0 30px;
+}
+.forum-edit-link {
+    float:right;
+    margin-right:10px;
+}
+.forum-table-header {
+    padding:0;
+    text-align:center;
+}
+.forum-table-checkboxes {
+    padding:0;
+    text-align:center;
+}
+.forum-save-button {
+    float:right;
+}
+.email_body {
+    font-family:monospace;
+}
+tr.filterwarning th {
+    -moz-background-clip:border;
+    -moz-background-inline-policy:continuous;
+    -moz-background-origin:padding;
+    background:#FDFEB8 url(https://a.fsdn.com/sf/images/sfx/icon_warning.gif) no-repeat scroll 0.5em 0.2em;
+    border:1px solid #FFBB00 !important;
+    font-weight:bold;
+    padding:5px 30px !important;
+}

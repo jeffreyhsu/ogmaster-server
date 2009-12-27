@@ -1,0 +1,30 @@
+
+.yui-g label {
+    clear:both;
+    float:left;
+    padding:0 1em 0 0;
+    text-align:right;
+    width:8em;
+}
+.yui-g p {
+    font-size:93%;
+    line-height:normal;
+    margin:0 0 0.8em 8em;
+    padding:0;
+}
+.yui-g p select {
+    margin-top:-0.2em;
+}
+textarea {
+    width:auto;
+}
+.yui-g h3 {
+    margin:0;
+    padding:0;
+}
+.yui-g p {
+    margin:0 0 0.8em 9em;
+}
+form {
+    display:inline;
+}

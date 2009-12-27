@@ -1,0 +1,180 @@
+table {
+    empty-cells:show;
+    width:100%;
+}
+#cluetip {
+    -moz-background-clip:border;
+    -moz-background-inline-policy:continuous;
+    -moz-background-origin:padding;
+    background:#FFFFFF none repeat scroll 0 0;
+    border:1px solid #CCCCCC;
+}
+table caption {
+    display:none;
+}
+thead tr th {
+    background-image:url(https://a.fsdn.com/sf/images//phoneix/gloss_sm.png);
+    background-repeat:repeat-x;
+    border-color:#AAAAAA;
+    border-style:solid;
+    border-width:1px 1px 2px;
+    color:#555555;
+    font-size:85%;
+}
+.track thead tr th {
+    -moz-background-clip:border;
+    -moz-background-inline-policy:continuous;
+    -moz-background-origin:padding;
+    background:transparent none repeat scroll 0 0;
+    border-color:-moz-use-text-color -moz-use-text-color #DDDDDD #DDDDDD;
+    border-style:none none solid solid;
+    border-width:medium medium 2px 1px;
+}
+thead tr th a {
+    min-height:16px;
+}
+tbody tr td {
+    background-image:url(https://a.fsdn.com/sf/images//phoneix/grad_white_30.png);
+    background-position:0 -1.3em;
+    background-repeat:repeat-x;
+    border-color:#EEEEEE -moz-use-text-color #CCCCCC #DDDDDD;
+    border-style:solid none solid solid;
+    border-width:1px medium 1px 1px;
+}
+tbody tr td:first-child, .track thead tr th:first-child, tfoot tr td:first-child {
+    border-left:medium none;
+}
+tfoot tr td {
+    border-color:#DDDDDD -moz-use-text-color -moz-use-text-color;
+    border-style:solid none none;
+    border-width:2px medium medium;
+}
+thead tr td {
+    border:medium none;
+}
+thead th, tbody td, tfoot td {
+    font-size:93%;
+    text-align:left;
+}
+tbody tr.even {
+    -moz-background-clip:border;
+    -moz-background-inline-policy:continuous;
+    -moz-background-origin:padding;
+    background:#F2F8FF none repeat scroll 0 0;
+}
+.comments, .track {
+    width:100%;
+}
+.comments .yui-gf {
+    -moz-background-clip:border;
+    -moz-background-inline-policy:continuous;
+    -moz-background-origin:padding;
+    background:#EEEEEE none repeat scroll 0 0;
+    border:1px solid #DDDDDD;
+}
+.comments .yui-gf .yui-u.first {
+    -moz-background-clip:border;
+    -moz-background-inline-policy:continuous;
+    -moz-background-origin:padding;
+    background:transparent none repeat scroll 0 0;
+    border:medium none;
+    color:#555555;
+}
+.comments .yui-gf .yui-u {
+    -moz-background-clip:border;
+    -moz-background-inline-policy:continuous;
+    -moz-background-origin:padding;
+    background:#FFFFFF none repeat scroll 0 0;
+    border-left:1px solid #DDDDDD;
+}
+.track tbody tr td {
+    border:1px solid #DDDDDD;
+}
+.p1 {
+    background-color:#99FFFF;
+}
+.p2 {
+    background-color:#CCFFFF;
+}
+.p3 {
+    background-color:#99FFCC;
+}
+.p4 {
+    background-color:#CCFFCC;
+}
+.p5 {
+    background-color:#CCFF99;
+}
+.p6 {
+    background-color:#FFFFCC;
+}
+.p7 {
+    background-color:#FFFF99;
+}
+.p8 {
+    background-color:#FFCC99;
+}
+.p9 {
+    background-color:#FFCCCC;
+    color:#330000;
+}
+.release.current {
+    background-color:#EEFFEE;
+}
+.page {
+    text-align:right;
+}
+.results, .page {
+    border:medium none;
+    padding-bottom:0.5em;
+}
+.select {
+    background-color:#DDDDDD;
+}
+thead tr th a {
+    color:#444444 !important;
+    display:block;
+}
+.sortd, .sortu {
+    background-position:100% 50%;
+    padding:0 24px 0 0;
+}
+#filters {
+    -moz-background-clip:border;
+    -moz-background-inline-policy:continuous;
+    -moz-background-origin:padding;
+    background:#EEEEEE url(https://a.fsdn.com/sf/images//phoneix/grad_dark_30.png) repeat-x scroll center bottom;
+    border:1px solid #AAAAAA !important;
+    color:#444444;
+    font-size:85%;
+    font-weight:normal;
+    padding:0.5em 0;
+}
+#filters .yui-ge {
+    margin:0;
+    padding:0 0.5em 0 1em;
+}
+#bd #filters .divider {
+    margin:0.5em 0;
+}
+table.tablesorter .headerSortUp {
+    background-image:url(https://a.fsdn.com/sf/images//phoneix/asc.gif) !important;
+}
+table.tablesorter .headerSortDown {
+    background-image:url(https://a.fsdn.com/sf/images//phoneix/desc.gif) !important;
+}
+table.tablesorter thead tr .header {
+    background-image:url(https://a.fsdn.com/sf/images//phoneix/bg.gif);
+    background-position:right center;
+    background-repeat:no-repeat;
+    cursor:pointer;
+}
+table.tablesorter thead tr {
+    -moz-background-clip:border;
+    -moz-background-inline-policy:continuous;
+    -moz-background-origin:padding;
+    background:#F8FCFF none repeat scroll 0 0;
+}
+table.tablesorter .admin_access {
+    cursor:pointer;
+}

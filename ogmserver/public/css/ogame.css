@@ -1,0 +1,55 @@
+#nav .active a {
+    color: #000;
+    font-weight:bold;
+}
+
+.hide {
+    display:none;
+}
+
+table.table th, table.table td {
+    text-align:center;
+    font-weight:bold;
+}
+
+table.table th {
+    padding: 8px 0;
+    font-size: 12px;
+}
+
+a.ally {
+    color: #51bf1a;
+}
+
+
+a.pager_link {
+    background-color:#FFFFFF;
+    border:1px solid #C0C0C0;
+    color: #0092E8;
+    margin:1px;
+    padding: 0.2em 0.5em;
+}
+
+a.pager_link:hover {
+    text-decoration:none;
+    color:#000;
+}
+
+span.pager_curpage {
+    background:#F6F6F6 none repeat scroll 0 0;
+    border:1px solid #C0C0C0;
+    font-weight:bold;
+    margin:2px;
+    padding:0.2em 0.5em;
+}
+
+.status_i {
+	color: #666;
+}
+.status_v {
+	color: green;
+}
+.status_b {
+	color: black;
+	text-decoration: line-through;
+}
